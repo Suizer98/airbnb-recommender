@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a73f3351e401ac2fdd9003c8f01e0c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a73f3351e401ac2fdd9003c8f01e0c0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a73f3351e401ac2fdd9003c8f01e0c0 = L.map(
+                "map_4a73f3351e401ac2fdd9003c8f01e0c0",
+                {
+                    center: [1.2834, 103.8607],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2cb8f7e63b3976f11840e2468bb10418 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2cb8f7e63b3976f11840e2468bb10418.addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var marker_f3a374baadabf003f45eb5b98a8f9939 = L.marker(
+                [1.2834, 103.8607],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_d477e873e4a7dcfd9f8a09cdad993643 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3a374baadabf003f45eb5b98a8f9939.setIcon(icon_d477e873e4a7dcfd9f8a09cdad993643);
+        
+    
+        var popup_a871a01727375db2f1df0c575aad515d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0854621f31fb8a58077646662778bd5b = $(`<div id="html_0854621f31fb8a58077646662778bd5b" style="width: 100.0%; height: 100.0%;">Marina Bay Sands</div>`)[0];
+                popup_a871a01727375db2f1df0c575aad515d.setContent(html_0854621f31fb8a58077646662778bd5b);
+            
+        
+
+        marker_f3a374baadabf003f45eb5b98a8f9939.bindPopup(popup_a871a01727375db2f1df0c575aad515d)
+        ;
+
+        
+    
+    
+            var marker_55a1eb0b11166fda798d75d3000c57ee = L.marker(
+                [1.284662036, 103.8610059],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_e7396d2fa499cb4bd08e124bda8b0a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55a1eb0b11166fda798d75d3000c57ee.setIcon(icon_e7396d2fa499cb4bd08e124bda8b0a04);
+        
+    
+        var popup_64ab99530a6c94f49dadecfca9d2245f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_176b581ec3fb30b19957eb896527f98e = $(`<div id="html_176b581ec3fb30b19957eb896527f98e" style="width: 100.0%; height: 100.0%;">Marina Bay Sands</div>`)[0];
+                popup_64ab99530a6c94f49dadecfca9d2245f.setContent(html_176b581ec3fb30b19957eb896527f98e);
+            
+        
+
+        marker_55a1eb0b11166fda798d75d3000c57ee.bindPopup(popup_64ab99530a6c94f49dadecfca9d2245f)
+        ;
+
+        
+    
+    
+            var marker_d863443efe2d1a6bda22c44bce0ffda7 = L.marker(
+                [1.28346, 103.8578],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_42355b81bae8f540f4794213ba83f1d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d863443efe2d1a6bda22c44bce0ffda7.setIcon(icon_42355b81bae8f540f4794213ba83f1d1);
+        
+    
+        var popup_a646edb9b45739c331a25439bdbf7bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87994fb67059d1496e9f1e355bde8a91 = $(`<div id="html_87994fb67059d1496e9f1e355bde8a91" style="width: 100.0%; height: 100.0%;">Luxury room around Marina Bay and infinity pool</div>`)[0];
+                popup_a646edb9b45739c331a25439bdbf7bb4.setContent(html_87994fb67059d1496e9f1e355bde8a91);
+            
+        
+
+        marker_d863443efe2d1a6bda22c44bce0ffda7.bindPopup(popup_a646edb9b45739c331a25439bdbf7bb4)
+        ;
+
+        
+    
+    
+            var marker_1a2a723c2f3aee3933c86c67d009e31e = L.marker(
+                [1.28435, 103.86159],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_40b8ebf0ede6c456f7b518af8458717d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a2a723c2f3aee3933c86c67d009e31e.setIcon(icon_40b8ebf0ede6c456f7b518af8458717d);
+        
+    
+        var popup_b3c369b2d3906654d1cc70a1c4006784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0cb006619a9e0ef483059236569af76 = $(`<div id="html_b0cb006619a9e0ef483059236569af76" style="width: 100.0%; height: 100.0%;">Special room offer at Marina Bay Sands Hotel</div>`)[0];
+                popup_b3c369b2d3906654d1cc70a1c4006784.setContent(html_b0cb006619a9e0ef483059236569af76);
+            
+        
+
+        marker_1a2a723c2f3aee3933c86c67d009e31e.bindPopup(popup_b3c369b2d3906654d1cc70a1c4006784)
+        ;
+
+        
+    
+    
+            var marker_e5bbe5c899bb85f4f8646a0ccb1339f4 = L.marker(
+                [1.28456, 103.86004],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_2257a87add0e3a631ea8896ee33eac3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e5bbe5c899bb85f4f8646a0ccb1339f4.setIcon(icon_2257a87add0e3a631ea8896ee33eac3e);
+        
+    
+        var popup_21c3f03c492e6c1978f9f49d8c77b1db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_febd642d03967c1c21382ad03ddd56b4 = $(`<div id="html_febd642d03967c1c21382ad03ddd56b4" style="width: 100.0%; height: 100.0%;">The Sail[Marina Boulevard] Queen Room</div>`)[0];
+                popup_21c3f03c492e6c1978f9f49d8c77b1db.setContent(html_febd642d03967c1c21382ad03ddd56b4);
+            
+        
+
+        marker_e5bbe5c899bb85f4f8646a0ccb1339f4.bindPopup(popup_21c3f03c492e6c1978f9f49d8c77b1db)
+        ;
+
+        
+    
+    
+            var marker_aab03b1d727e57bb2e3550f82980d989 = L.marker(
+                [1.28473, 103.8593],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_4bbd202e8ad4e5dfbb38a17debfc2cae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aab03b1d727e57bb2e3550f82980d989.setIcon(icon_4bbd202e8ad4e5dfbb38a17debfc2cae);
+        
+    
+        var popup_1fbfb3b071e1425a8306bda51bd488d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7626a942b603c44c553a4a58ec8f3b8d = $(`<div id="html_7626a942b603c44c553a4a58ec8f3b8d" style="width: 100.0%; height: 100.0%;">Special room at Marina Bay Sands Hotel</div>`)[0];
+                popup_1fbfb3b071e1425a8306bda51bd488d2.setContent(html_7626a942b603c44c553a4a58ec8f3b8d);
+            
+        
+
+        marker_aab03b1d727e57bb2e3550f82980d989.bindPopup(popup_1fbfb3b071e1425a8306bda51bd488d2)
+        ;
+
+        
+    
+    
+            var marker_57bd5d935814079815454311a8205939 = L.marker(
+                [1.28206, 103.85366],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_f6908f89f45389b32ee1a6192cf14c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57bd5d935814079815454311a8205939.setIcon(icon_f6908f89f45389b32ee1a6192cf14c0e);
+        
+    
+        var popup_994d0edeeefbdce025c892c122458850 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30fb8ef126751e5f0aa05a815006d540 = $(`<div id="html_30fb8ef126751e5f0aa05a815006d540" style="width: 100.0%; height: 100.0%;">Master Suite with attached bathroom, CBD area</div>`)[0];
+                popup_994d0edeeefbdce025c892c122458850.setContent(html_30fb8ef126751e5f0aa05a815006d540);
+            
+        
+
+        marker_57bd5d935814079815454311a8205939.bindPopup(popup_994d0edeeefbdce025c892c122458850)
+        ;
+
+        
+    
+    
+            var marker_f7578b1fbdc29b661c540e316e601462 = L.marker(
+                [1.28199, 103.85305],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_9cca12367304a656c1550d4471daba76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7578b1fbdc29b661c540e316e601462.setIcon(icon_9cca12367304a656c1550d4471daba76);
+        
+    
+        var popup_ab7593829ae3d79e64133fd1accccefa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c17c2df3dd16fc89725ef5ace57d8caf = $(`<div id="html_c17c2df3dd16fc89725ef5ace57d8caf" style="width: 100.0%; height: 100.0%;">Large Private Studio with kitchen,Marina Boulevard</div>`)[0];
+                popup_ab7593829ae3d79e64133fd1accccefa.setContent(html_c17c2df3dd16fc89725ef5ace57d8caf);
+            
+        
+
+        marker_f7578b1fbdc29b661c540e316e601462.bindPopup(popup_ab7593829ae3d79e64133fd1accccefa)
+        ;
+
+        
+    
+    
+            var marker_c22e9bd6b1f615e898cb1ae71e409786 = L.marker(
+                [1.28175, 103.85356],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_67ff96c434fea742ffe75d18ef518a1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c22e9bd6b1f615e898cb1ae71e409786.setIcon(icon_67ff96c434fea742ffe75d18ef518a1c);
+        
+    
+        var popup_250633678ef94c7bb719f335ac10a74c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0d0d213610366227b53298c41839e9a = $(`<div id="html_c0d0d213610366227b53298c41839e9a" style="width: 100.0%; height: 100.0%;">1 Bedder Unit @ CBD Downtown Line</div>`)[0];
+                popup_250633678ef94c7bb719f335ac10a74c.setContent(html_c0d0d213610366227b53298c41839e9a);
+            
+        
+
+        marker_c22e9bd6b1f615e898cb1ae71e409786.bindPopup(popup_250633678ef94c7bb719f335ac10a74c)
+        ;
+
+        
+    
+    
+            var marker_c0b2ff4e6c73524b077963a688526c77 = L.marker(
+                [1.28185, 103.85325],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_0c8b52e49b2e483d90f67bdf7aeab1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0b2ff4e6c73524b077963a688526c77.setIcon(icon_0c8b52e49b2e483d90f67bdf7aeab1cd);
+        
+    
+        var popup_37e86ace55bb1b86cd96473d6ae827f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9100a47a2b01ff420a7a220dc02fb83b = $(`<div id="html_9100a47a2b01ff420a7a220dc02fb83b" style="width: 100.0%; height: 100.0%;">Central Business District , Big En-Suite Master Rm</div>`)[0];
+                popup_37e86ace55bb1b86cd96473d6ae827f1.setContent(html_9100a47a2b01ff420a7a220dc02fb83b);
+            
+        
+
+        marker_c0b2ff4e6c73524b077963a688526c77.bindPopup(popup_37e86ace55bb1b86cd96473d6ae827f1)
+        ;
+
+        
+    
+    
+            var marker_3c6d9e05bee80c5af680323b8454c2e9 = L.marker(
+                [1.28535, 103.85428],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_0480c8692695a56489938b8b0d35b53a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c6d9e05bee80c5af680323b8454c2e9.setIcon(icon_0480c8692695a56489938b8b0d35b53a);
+        
+    
+        var popup_74b3fa3c38635bb1852f81da8cc4f614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3041ccab256b0f8f7ba3c2f364bc8e4b = $(`<div id="html_3041ccab256b0f8f7ba3c2f364bc8e4b" style="width: 100.0%; height: 100.0%;">Entire amazing marina bay view 3BR 1Min MRT金沙景近地铁</div>`)[0];
+                popup_74b3fa3c38635bb1852f81da8cc4f614.setContent(html_3041ccab256b0f8f7ba3c2f364bc8e4b);
+            
+        
+
+        marker_3c6d9e05bee80c5af680323b8454c2e9.bindPopup(popup_74b3fa3c38635bb1852f81da8cc4f614)
+        ;
+
+        
+    
+    
+            var marker_fa3ac6cb4d1cb297255acee595dff426 = L.marker(
+                [1.28185, 103.85307],
+                {}
+            ).addTo(map_4a73f3351e401ac2fdd9003c8f01e0c0);
+        
+    
+            var icon_f220bc21e91ba2cbe3fe6bbc26ca9a0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa3ac6cb4d1cb297255acee595dff426.setIcon(icon_f220bc21e91ba2cbe3fe6bbc26ca9a0e);
+        
+    
+        var popup_13bb23b7144536f99565c3c828424c10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a8c669be83da211d7007b366ab78f0 = $(`<div id="html_43a8c669be83da211d7007b366ab78f0" style="width: 100.0%; height: 100.0%;">Big Studio Apartment @ CBD</div>`)[0];
+                popup_13bb23b7144536f99565c3c828424c10.setContent(html_43a8c669be83da211d7007b366ab78f0);
+            
+        
+
+        marker_fa3ac6cb4d1cb297255acee595dff426.bindPopup(popup_13bb23b7144536f99565c3c828424c10)
+        ;
+
+        
+    
+</script>
+</html>
